@@ -8,7 +8,7 @@ const TimerProvider = ({ children }) => {
   const [progress, setProgress] = useState(100);
   const [isTimerActive, setIsTimerActive] = useState(false);
 
-  const [workingTime, setWorkingTime] = useState(10);
+  const [workingTime, setWorkingTime] = useState(1500);
   const [breakTime, setBreakTime] = useState(300);
 
   const [defaultTime, setDefaultTime] = useState();
